@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingApp.API", "DatingApp.
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "DatingApp", "DatingApp\DatingApp.esproj", "{785E3604-0801-4457-8EBB-A0F5EE378CC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp.DataAccess", "DatingApp.DataAccess\DatingApp.DataAccess.csproj", "{7C73C401-51CB-4C14-AE2E-3D4A6E71B9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingApp.Services", "DatingApp.Services\DatingApp.Services.csproj", "{A92068AD-3E60-4678-B0BE-C59187B0468A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{785E3604-0801-4457-8EBB-A0F5EE378CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{785E3604-0801-4457-8EBB-A0F5EE378CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{785E3604-0801-4457-8EBB-A0F5EE378CC4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7C73C401-51CB-4C14-AE2E-3D4A6E71B9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C73C401-51CB-4C14-AE2E-3D4A6E71B9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C73C401-51CB-4C14-AE2E-3D4A6E71B9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C73C401-51CB-4C14-AE2E-3D4A6E71B9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92068AD-3E60-4678-B0BE-C59187B0468A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92068AD-3E60-4678-B0BE-C59187B0468A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92068AD-3E60-4678-B0BE-C59187B0468A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92068AD-3E60-4678-B0BE-C59187B0468A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
